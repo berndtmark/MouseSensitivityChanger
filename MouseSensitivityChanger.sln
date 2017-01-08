@@ -1,18 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26020.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{38C57737-1635-43E0-869B-06B6B0498BC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseSensitivityChanger", "MouseSensitivityChanger\MouseSensitivityChanger.csproj", "{A8ED187D-42A9-4FA1-8DF4-A862C6FC8F4A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1780CF8C-BCDE-4F21-8851-F9B7CF7C7DC1}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MouseSensitivityChanger", "src\MouseSensitivityChanger\MouseSensitivityChanger.xproj", "{96308D1A-39A2-49BD-899E-F9BD84F19FC9}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WindowsLibrary", "src\WindowsLibrary\WindowsLibrary.xproj", "{8A8D9864-214B-4543-8442-B11AD50BE64C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowLibrary", "WindowLibrary\WindowLibrary.csproj", "{2F520BC6-06BE-4FB9-97C7-557395DD9C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,20 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96308D1A-39A2-49BD-899E-F9BD84F19FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96308D1A-39A2-49BD-899E-F9BD84F19FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96308D1A-39A2-49BD-899E-F9BD84F19FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96308D1A-39A2-49BD-899E-F9BD84F19FC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A8D9864-214B-4543-8442-B11AD50BE64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A8D9864-214B-4543-8442-B11AD50BE64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A8D9864-214B-4543-8442-B11AD50BE64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A8D9864-214B-4543-8442-B11AD50BE64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ED187D-42A9-4FA1-8DF4-A862C6FC8F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ED187D-42A9-4FA1-8DF4-A862C6FC8F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ED187D-42A9-4FA1-8DF4-A862C6FC8F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ED187D-42A9-4FA1-8DF4-A862C6FC8F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F520BC6-06BE-4FB9-97C7-557395DD9C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F520BC6-06BE-4FB9-97C7-557395DD9C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F520BC6-06BE-4FB9-97C7-557395DD9C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F520BC6-06BE-4FB9-97C7-557395DD9C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{96308D1A-39A2-49BD-899E-F9BD84F19FC9} = {38C57737-1635-43E0-869B-06B6B0498BC2}
-		{8A8D9864-214B-4543-8442-B11AD50BE64C} = {38C57737-1635-43E0-869B-06B6B0498BC2}
 	EndGlobalSection
 EndGlobal
