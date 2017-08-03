@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsLibrary.Enums
+namespace MouseSensitivityChanger
 {
-    public enum MouseSpeed
+    public interface ILogger
     {
-        Default = 10
+        void Write(string text);
     }
 }
