@@ -18,7 +18,6 @@ namespace MouseSensitivityChanger
         public void Execute()
         {
             var currentMouseSpeed = _mouseSensitivityService.GetMouseSpeed();
-            _logger.Write($"Current speed is: {currentMouseSpeed}");
 
             switch (currentMouseSpeed)
             {
@@ -37,7 +36,7 @@ namespace MouseSensitivityChanger
         private void ChangeSpeed(int speed)
         {
             _mouseSensitivityService.SetMouseSpeed(speed);
-            _logger.Write($"New speed is: {speed}");
+            _logger.Write($"Mouse speed changed to: {speed}");
         }
     }
 }

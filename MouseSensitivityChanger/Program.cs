@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using WindowsLibrary;
-using WindowsLibrary.Services.Interfaces;
+﻿using WindowsLibrary;
 
 namespace MouseSensitivityChanger
 {
@@ -12,10 +6,8 @@ namespace MouseSensitivityChanger
     {
         public static void Main(string[] args)
         {
-            var app = new MouseSpeedChanger(new MouseSensitivityService(), new ConsoleLogger());
+            var app = new MouseSpeedChanger(new MouseSensitivityService(), new WindowsNotificationLogger());
             app.Execute();
-
-            Thread.Sleep(1000);
         }
     }
 }
